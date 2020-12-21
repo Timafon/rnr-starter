@@ -1,0 +1,14 @@
+{
+  "name": "rnr-starter",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/Timafon/rnr-starter.git",
+  "author": "Artem Zvyagin <a.zvyagin@ibolit.pro>",
+  "license": "MIT",
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ],
+    "nohoist": ["**/react-native", "**/react-native/**"]
+  }
+}
